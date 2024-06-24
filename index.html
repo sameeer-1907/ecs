@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Mine</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <img src="Logo.png" width="150" height="100">
+        <div id="WebsiteName" style="padding-right: 25%; padding-left: 28%;"><b>MINE SAFE HELMET</b></div>
+        <img src="rightlogo.png" width="100" height="100">
+    </div>
+
+    <div id="navigator">
+        <img src="Helmet.png" width="50" height="50" style="border-radius: 15px;">
+        <p id="Recycle">Mine Safe Helmet</p>
+        
+        <a href="index.html">Home</a>
+        <a href="http://192.168.137.205/">Live Cam</a>
+        <a href="http://192.168.137.59/">Health Monitor</a>
+        <a href="service.html">Live Location</a>
+        <a href="http://192.168.137.148/">Enviorment Monitor</a>
+        
+
+        <a href="mailto:chaitu21072003@gmail.com">
+            <img src="gmailSymbol.png" alt="Email Photo" width="85" height="60">
+        </a>
+    </div>
+
+    
+    <div id="photo" style="display: flex;">
+        <div>
+            <p class="paraBio"><b>INTRODUCING...</b></p>
+        <h3 class="paraHeadBio">A smart mining <br>helmet integrating <br>LoRa, LiFi and RFID</h3>
+        <p class="paraBio" style="margin-bottom: 15px;"> for real-time safety monitoring, location tracking, <br>and emergency alerts in underground mining environments.</p>
+
+        <!-- <input type="butt0n" value="Request" onclick="www.google.com"> -->
+        <div id="button-container">
+            <a href="Documentation.html" class="buttonClick">Documentation</a>
+            <a href="AboutUs.html" class="buttonClick2">More About Us</a>
+        </div>
+        </div>
+        
+        <!-- added -->
+        <div class="slideshow-container" style="margin-left: 15%; padding-top: 2%;">
+
+            <div class="mySlides fade">
+              <img src="https://media.istockphoto.com/id/495343052/photo/safety-helmets.jpg?s=612x612&w=0&k=20&c=PPbi3Ja5TRojL5eCv1Z7JH9uWqEDYeYaOqzM3qiVur8=">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://media.istockphoto.com/id/1065949052/photo/vigil-light-candle-with-the-miner-belongings.jpg?s=612x612&w=0&k=20&c=da0uC7dEpvSBW42pRxryZiSpfsgBaHlSjnwbH6XEFNQ=" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://media.istockphoto.com/id/1221055720/photo/miner-in-the-mine-well-uniformed-miner-inside-mine-raising-thumb.jpg?s=612x612&w=0&k=20&c=sTRzFZy7b5Z1Ddc-nYYm7HhKtXGSOldh3dxE-ihzS9s=" style="width:100%">
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+            
+    </div>
+    
+    <h3 id="h3tag" style="background-color: #d0efff; margin-top:10px;"><center>Bringing in the Edge Cutting Technologies to Miner Helmet</center></h3>
+    <div id="whiteDiv" style="background-color: #d0efff;">
+
+        <div style="width:70%">
+            <div id="box">Hazardous Gas Detection</div>
+        <div id="box">Oxygen Levels</div>
+        <div id="box">Heart Rate Monitoring</div>
+        </div>
+        
+        <div style="width:70%"><div id="box">LED Indicators</div>
+        <div id="box">GPS Module</div>
+        <div id="box">Environment Monitor</div>
+        </div>
+
+        <div style="width:70%" ><div id="box">Felixible CCTV</div>
+        <div id="box">Fall Detection Sensor</div>
+        <div id="box">Real-time accident detection</div>
+        </div>
+
+        <div style="width:70%"><div id="box">LoRa Communication</div>
+        <div id="box">Emergency Button</div>
+        <div id="box"> ESP-32 Cam</div>
+        </div>
+
+        <!-- <img src="RealHelmet.jpg" width="300" height="500" style="border-radius: 15px; margin-top: 5%;"> -->
+    </div>
+
+    <div id="greenDiv">
+        <div id="greenDiv1"><iframe src="http://192.168.137.211/" width="100%" height="100%" ></iframe>    
+    </div>
+
+        <div id="greenDiv1"><iframe src="http://192.168.137.174/" width="100%" height="100%" scrolling="no"></iframe>
+        </div>
+
+        <div id="greenDiv1"><iframe src="http://192.168.137.41/" width="100%" height="100%" scrolling="no"></iframe>
+        </div>
+    </div>
+
+    <div id ="gps">
+        <h1 style="text-align:center; padding: 10px; padding-bottom: 5px;"> Live Location</h1>
+        <div id="greenMap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1614.5878129494574!2d80.49915044499164!3d16.496211142102624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a358ac055555555%3A0xc23675358ec97767!2sVIT%20AP%20Administrative%20Office!5e1!3m2!1sen!2sin!4v1692893363769!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+   
+
+    <!-- <div id="footer-head"><b>Our Branches</b></div>
+    <div id="footer">
+        
+    </div> -->
+
+    <div id="last-footer1">
+        <div>Developed By</div>
+    </div>
+    <div id="last-footer">
+        <div class="T">Tarun Gampala - 21BEC7115</div>
+        <div class="T">Shahina Shaik - 21BEC7040</div>
+        <div class="T">Lokesh Sai Sri -21BCE8141</div>
+        <div class="T">V.Chaitanya -21BCE8945</div>
+        <div class="T">Sd. Md. Sameer -21BCE8463</div>
+        <div class="T">M.N.S. Manoj -21BEC7009</div>
+    </div>
+        
+
+</body>
+
+</html>

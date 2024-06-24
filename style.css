@@ -1,0 +1,273 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #064287;
+    padding: 15px;
+    display: flex;
+}
+
+#WebsiteName {
+    font-size: 35px;
+    padding: 20px 0px 10px 20px;
+    color: white;
+}
+
+#navigator {
+    background-color: #d0efff;
+    /* Set the background color for the navigator */
+    padding: 5px;
+    padding-left: 50px;
+    display: flex;
+    /* Use flexbox */
+    align-items: center;
+    /* Vertically center items in the navigator */
+}
+
+#Recycle {
+    margin: 0;
+    margin-right: auto;
+    padding-right: 0px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#contactInfo {
+    background-color: lightgreen;
+}
+
+#photo {
+    background-image: url("blueBackground.jpg");
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+h3 {
+    font-size: 50px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.buttonClick {
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: #45b6fe;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.buttonClick2 {
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: azure;
+    color: #064287;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#button-container {
+    display: flex;
+}
+
+.paraBio {
+    color: azure;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.paraHeadBio {
+    color: azure;
+    font-size: 60px;
+}
+
+#whiteDiv {
+    background-color: #d0efff;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 15px;
+    border-radius: 40px;
+}
+
+#h3tag {
+    /* padding-top: 30px;
+    padding-left: 40px; */
+    padding: 20px;
+}
+
+#greenDiv {
+    padding: 50px;
+    display: flex;
+    /* background-color: #064287; */
+    background-image: url("blueBack.jpg");
+
+}
+
+#greenDiv1 {
+    display: block;
+    width: 500px;
+    background-color: azure;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+iframe {
+    border-radius: 25px;
+    height: 500px;
+}
+
+#background-comapany {
+    /* background-image: url("background-comanpy.jpg"); */
+    color: azure;
+    background-color: #1a7e00;
+}
+
+#footer {
+    display: flex;
+    background-color: #023021;
+    font-size: 12px;
+    color: azure;
+}
+
+#footer-head{
+    padding-top: 15px;
+    text-align: center;
+    background-color: #45b6fe;
+    color: azure;
+}
+.footer-div{
+    padding: 30px;
+    width: 100%;
+    background-color: #45b6fe;
+}
+
+#last-footer {
+    display: flex;
+    background-color: #064287;
+    color: azure;
+}
+
+.child-footer{
+    width: 100%;
+    padding: 10px 50px 10px 50px;
+}
+
+
+/* Send-request-page */
+#photo-send-request {
+    display: flex;
+    background-image: url("greenBackground.jpg");
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin-bottom: 1%;
+}
+
+#request-form {
+    text-align: center;
+    padding: 10px;
+    /* background-color: greenyellow; */
+    background-color: hsla(74, 75%, 63%, 0.4); /* Black color with 50% transparency */
+    border-radius: 15px; 
+    margin: 20px ;
+    color: azure;
+}
+
+#photo-send-request h3 {
+    /* Set opacity to 1 for the h3 element to make it fully opaque */
+    padding: 5px;
+    color: azure;
+}
+
+#content-company {
+    display: flex;
+}
+#content-company div {
+    margin: 1%;
+    padding: 2%;
+    border-radius: 25px;
+    color: azure;
+    background-color: #177100;
+    width: 33%;
+}
+
+#content-service {
+    margin: 1%;
+    padding: 2%;
+    border-radius: 25px;
+    color: azure;
+    background-color: #49a401;
+}
+
+.slideshow-container img {
+    border-radius: 35px;
+}
+
+#bigBox{
+    display: flex;
+    
+}
+#box{
+    background-color: #064287;
+    color: azure;
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10%;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgba(124, 244, 4, 0.5);
+}
+
+#gps{
+    background-color:#d0efff;
+    width:100%;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+}
+
+#greenMap {
+    margin: 2%;
+    padding-bottom: 3%;
+}
+
+.T {
+    padding: 5px 20px 5px 30px;
+}
+
+#last-footer1 div {
+    background-color: #064287;
+    color: azure;
+    text-align: center;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    padding-top: 2px;
+}
+
